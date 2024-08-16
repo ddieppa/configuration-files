@@ -1,0 +1,29 @@
+# Created using winget configure export 1.9.2151-preview
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+properties:
+  configurationVersion: 0.2.0
+  resources:
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    id: Microsoft.AppInstaller
+    directives:
+      description: "Install Microsoft.AppInstaller"
+      allowPrerelease: true
+    settings:
+      id: "Microsoft.AppInstaller"
+      source: "winget"
+  - resource: Microsoft.Winget.DSC/WinGetUserSettings
+    dependsOn:
+    - Microsoft.AppInstaller
+    directives:
+      description: "Configure Microsoft.AppInstaller"
+    settings:
+      Settings:
+        experimentalFeatures:
+          resume: true
+          configureExport: true
+        visual:
+          progressBar: "rainbow"
+        $schema: "https://aka.ms/winget-settings.schema.json"
+        source:
+          autoUpdateIntervalInMinutes: 5
+      Action: "Full"

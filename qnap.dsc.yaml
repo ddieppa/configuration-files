@@ -1,0 +1,23 @@
+# Created using winget configure export 1.9.2151-preview
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+properties:
+  configurationVersion: 0.2.0
+  resources:
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing QNAP.Qsync
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "QNAP.Qsync"
+      source: winget
+    id: QNAP.Qsync
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing QNAP.QfinderPro
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "QNAP.QfinderPro"
+      source: winget
+    id: QNAP.QfinderPro

@@ -1,0 +1,203 @@
+# Created using winget configure export 1.9.2151-preview
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+properties:
+  configurationVersion: 0.2.0
+  resources:
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing JetBrains.Toolbox
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "JetBrains.Toolbox"
+      source: winget
+    id: JetBrains.Toolbox
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.VisualStudio.2022.Community.Preview
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.VisualStudio.2022.Community.Preview"
+      source: winget
+    id: Microsoft.VisualStudio.2022.Community.Preview
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.VisualStudioCode.Insiders
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.VisualStudioCode.Insiders"
+      source: winget
+    id: Microsoft.VisualStudioCode.Insiders
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.DevHome
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.DevHome"
+      source: winget
+    id: Microsoft.DevHome
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Dev Home Azure Extension (Preview)
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "9MV8F79FGXTR"
+      source: msstore
+    id: 9MV8F79FGXTR
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Dev Home GitHub Extension (Preview)
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "9NZCC27PR6N6"
+      source: msstore
+    id: 9NZCC27PR6N6
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Dev Home Microsoft Game Dev Extension (Preview)
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "9NZ845RW19RW"
+      source: msstore
+    id: 9NZ845RW19RW
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing DevToys-app.DevToys
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "DevToys-app.DevToys"
+      source: winget
+    id: DevToys-app.DevToys
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Docker.DockerDesktop
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Docker.DockerDesktop"
+      source: winget
+    id: Docker.DockerDesktop
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Postman.Postman
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Postman.Postman"
+      source: winget
+    id: Postman.Postman
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing GitHub.GitHubDesktop
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "GitHub.GitHubDesktop"
+      source: winget
+    id: GitHub.GitHubDesktop
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Git.Git
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Git.Git"
+      source: winget
+    id: Git.Git
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing CoreyButler.NVMforWindows
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "CoreyButler.NVMforWindows"
+      source: winget
+    id: CoreyButler.NVMforWindows
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.AzureDataStudio.Insiders
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.AzureDataStudio.Insiders"
+      source: winget
+    id: Microsoft.AzureDataStudio.Insiders
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Canonical.Ubuntu.2204
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Canonical.Ubuntu.2204"
+      source: winget
+    id: Canonical.Ubuntu.2204
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.DotNet.SDK.8
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.DotNet.SDK.8"
+      source: winget
+    id: Microsoft.DotNet.SDK.8
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.DotNet.SDK.6
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.DotNet.SDK.6"
+      source: winget
+    id: Microsoft.DotNet.SDK.6
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.DotNet.SDK.7
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.DotNet.SDK.7"
+      source: winget
+    id: Microsoft.DotNet.SDK.7
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.DotNet.SDK.Preview
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.DotNet.SDK.Preview"
+      source: winget
+    id: Microsoft.DotNet.SDK.Preview
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.SQLServerManagementStudio
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.SQLServerManagementStudio"
+      source: winget
+    id: Microsoft.SQLServerManagementStudio
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.PowerShell
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.PowerShell"
+      source: winget
+    id: Microsoft.PowerShell
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Microsoft.PowerShell.Preview
+      allowPrerelease: true
+      securityContext: current
+    settings:
+      id: "Microsoft.PowerShell.Preview"
+      source: winget
+    id: Microsoft.PowerShell.Preview

@@ -1,19 +1,19 @@
 # yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
-
-###########################################################################
-# This configuration will revert various Windows Settings.                #
-# PowerShell module: Microsoft.Windows.Developer (v0.2.1-alpha)           #
-###########################################################################
-
 properties:
   resources:
+    - resource: Microsoft.Windows.Developer/DeveloperMode
+      directives:
+        description: Enable Developer Mode
+        allowPrerelease: true
+      settings:
+        Ensure: Present
     - resource: Microsoft.Windows.Developer/Taskbar
       directives:
         description: Revert taskbar settings
         allowPrerelease: true
       settings:
         Alignment: Middle # [KeepCurrentValue, Left]
-        HideLabelsMode: Always # [KeepCurrentValue, WhenFull, Never]
+        HideLabelsMode: Never # [KeepCurrentValue, WhenFull, Never]
         SearchBoxMode: Hide # [KeepCurrentValue, ShowIconOnly, SearchBox, ShowIconAndLabel]
         TaskViewButton: Hide # [KeepCurrentValue, Show]
         WidgetsButton: Hide # [KeepCurrentValue, Show]
@@ -29,10 +29,10 @@ properties:
         RestartExplorer: # Use caution when setting `RestartExplorer: true` as this will force explorer to close. Required for all WindowsExplorer settings.
     - resource: Microsoft.Windows.Developer/ShowSecondsInClock
       directives:
-        description: Hide seconds in clock
+        description: Show seconds in clock
         allowPrerelease: true
       settings:
-        Ensure: Absent
+        Ensure: Present
     - resource: Microsoft.Windows.Developer/EnableDarkMode
       directives:
         description: Enable dark mode

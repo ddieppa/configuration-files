@@ -20,13 +20,13 @@ This repository contains several DSC (Desired State Configuration) files for dif
 
 3. Apply the desired DSC configuration using the following command, replacing `<FileName>` with the name of the DSC file you want to apply:
    ```powershell
-   winget import -i .\<FileName>
+   winget configure --file .\<FileName>
    ```
 
 ### Example
 To apply the `apps.dsc.yaml` configuration, use:
 ```powershell
-winget import -i .\apps.dsc.yaml
+winget configure --file .\apps.dsc.yaml
 ```
 
 ### Steps to Install DSC Files using Dev Home

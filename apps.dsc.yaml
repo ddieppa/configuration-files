@@ -8,7 +8,7 @@ properties:
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing Ditto.Ditto
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "Ditto.Ditto"
@@ -17,7 +17,7 @@ properties:
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing Microsoft.PowerToys
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "Microsoft.PowerToys"
@@ -26,7 +26,7 @@ properties:
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing ShareX.ShareX
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "ShareX.ShareX"
@@ -35,7 +35,7 @@ properties:
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing 7zip.7zip
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "7zip.7zip"
@@ -43,17 +43,17 @@ properties:
     id: 7zip.7zip
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
-      description: Installing Microsoft.WindowsTerminal.Preview
-      allowPrerelease: true
+      description: Installing Microsoft.WindowsTerminal
+      allowPrerelease: false
       securityContext: current
     settings:
-      id: "Microsoft.WindowsTerminal.Preview"
+      id: "Microsoft.WindowsTerminal"
       source: winget
-    id: Microsoft.WindowsTerminal.Preview
+    id: Microsoft.WindowsTerminal
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing JanDeDobbeleer.OhMyPosh
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "JanDeDobbeleer.OhMyPosh"
@@ -61,17 +61,17 @@ properties:
     id: JanDeDobbeleer.OhMyPosh
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
-      description: Installing qBittorrent.qBittorrent.Beta
-      allowPrerelease: true
+      description: Installing qBittorrent.qBittorrent
+      allowPrerelease: false
       securityContext: current
     settings:
-      id: "qBittorrent.qBittorrent.Beta"
+      id: "qBittorrent.qBittorrent"
       source: winget
-    id: qBittorrent.qBittorrent.Beta
+    id: qBittorrent.qBittorrent
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing NordSecurity.NordVPN
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "NordSecurity.NordVPN"
@@ -79,26 +79,26 @@ properties:
     id: NordSecurity.NordVPN
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
-      description: Installing Brave.Brave.Beta
-      allowPrerelease: true
+      description: Installing Brave.Brave
+      allowPrerelease: false
       securityContext: current
     settings:
-      id: "Brave.Brave.Beta"
+      id: "Brave.Brave"
       source: winget
-    id: Brave.Brave.Beta
+    id: Brave.Brave
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
-      description: Installing Google.Chrome.Dev.EXE
-      allowPrerelease: true
+      description: Installing Google.Chrome
+      allowPrerelease: false
       securityContext: current
     settings:
-      id: "Google.Chrome.Dev.EXE"
+      id: "Google.Chrome"
       source: winget
-    id: Google.Chrome.Dev.EXE
+    id: Google.Chrome
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing Notepad++.Notepad++
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "Notepad++.Notepad++"
@@ -107,7 +107,7 @@ properties:
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing Adobe.Acrobat.Reader.64-bit
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "Adobe.Acrobat.Reader.64-bit"
@@ -116,7 +116,7 @@ properties:
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing VideoLAN.VLC
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "VideoLAN.VLC"
@@ -124,17 +124,17 @@ properties:
     id: VideoLAN.VLC
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
-      description: Installing WhatsApp Beta
-      allowPrerelease: true
+      description: Installing WhatsApp
+      allowPrerelease: false
       securityContext: current
     settings:
-      id: "9NBDXK71NK08"
-      source: msstore
-    id: 9NBDXK71NK08
+      id: "WhatsApp.WhatsApp"
+      source: winget
+    id: WhatsApp.WhatsApp
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing Bitwarden.Bitwarden
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "Bitwarden.Bitwarden"
@@ -143,7 +143,7 @@ properties:
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing Notion.Notion
-      allowPrerelease: true
+      allowPrerelease: false
       securityContext: current
     settings:
       id: "Notion.Notion"

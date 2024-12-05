@@ -43,13 +43,13 @@ properties:
     id: 7zip.7zip
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
-      description: Installing Microsoft.WindowsTerminal
+      description: Installing Microsoft.WindowsTerminal Preview
       allowPrerelease: false
       securityContext: current
     settings:
-      id: "Microsoft.WindowsTerminal"
+      id: "Microsoft.WindowsTerminal.Preview"
       source: winget
-    id: Microsoft.WindowsTerminal
+    id: Microsoft.WindowsTerminal.Preview
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
       description: Installing JanDeDobbeleer.OhMyPosh
@@ -106,15 +106,6 @@ properties:
     id: Notepad++.Notepad++
   - resource: Microsoft.WinGet.DSC/WinGetPackage
     directives:
-      description: Installing Adobe.Acrobat.Reader.64-bit
-      allowPrerelease: false
-      securityContext: current
-    settings:
-      id: "Adobe.Acrobat.Reader.64-bit"
-      source: winget
-    id: Adobe.Acrobat.Reader.64-bit
-  - resource: Microsoft.WinGet.DSC/WinGetPackage
-    directives:
       description: Installing VideoLAN.VLC
       allowPrerelease: false
       securityContext: current
@@ -149,3 +140,21 @@ properties:
       id: "Notion.Notion"
       source: winget
     id: Notion.Notion
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Move Mouse
+      allowPrerelease: false
+      securityContext: current
+    settings:
+      id: "9NQ4QL59XLBF"
+      source: msstore
+    id: 9NQ4QL59XLBF
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      description: Installing Foxit Reader
+      allowPrerelease: false
+      securityContext: current
+    settings:
+      id: "Foxit.Reader"
+      source: winget
+    id: Foxit.Reader
